@@ -12,6 +12,9 @@
 		0437BAD3244192E4006D6AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437BAD1244192E4006D6AFB /* Main.storyboard */; };
 		0437BAD5244192E6006D6AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437BAD4244192E6006D6AFB /* Assets.xcassets */; };
 		0437BAD8244192E6006D6AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437BAD6244192E6006D6AFB /* LaunchScreen.storyboard */; };
+		04BA3D162441FE0C00BA9C5A /* MicrophoneMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA3D152441FE0C00BA9C5A /* MicrophoneMonitor.swift */; };
+		04BA3D1824420C4B00BA9C5A /* NotificationCenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA3D1724420C4B00BA9C5A /* NotificationCenterProtocol.swift */; };
+		04BA3D1C24420D5B00BA9C5A /* MyNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA3D1B24420D5B00BA9C5A /* MyNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0437BAD4244192E6006D6AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0437BAD7244192E6006D6AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0437BAD9244192E6006D6AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA3D152441FE0C00BA9C5A /* MicrophoneMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneMonitor.swift; sourceTree = "<group>"; };
+		04BA3D1724420C4B00BA9C5A /* NotificationCenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterProtocol.swift; sourceTree = "<group>"; };
+		04BA3D1B24420D5B00BA9C5A /* MyNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0437BADF244193A9006D6AFB /* AppDelegate */,
+				04BA3D142441FDEE00BA9C5A /* Utils */,
 				0437BAE0244193B2006D6AFB /* Scenes */,
 				0437BAD4244192E6006D6AFB /* Assets.xcassets */,
 				0437BAD9244192E6006D6AFB /* Info.plist */,
@@ -94,6 +101,16 @@
 				0437BAD6244192E6006D6AFB /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04BA3D142441FDEE00BA9C5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04BA3D152441FE0C00BA9C5A /* MicrophoneMonitor.swift */,
+				04BA3D1724420C4B00BA9C5A /* NotificationCenterProtocol.swift */,
+				04BA3D1B24420D5B00BA9C5A /* MyNotificationCenter.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +186,9 @@
 			files = (
 				0437BAD0244192E4006D6AFB /* MainViewController.swift in Sources */,
 				0437BACC244192E4006D6AFB /* AppDelegate.swift in Sources */,
+				04BA3D1C24420D5B00BA9C5A /* MyNotificationCenter.swift in Sources */,
+				04BA3D1824420C4B00BA9C5A /* NotificationCenterProtocol.swift in Sources */,
+				04BA3D162441FE0C00BA9C5A /* MicrophoneMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
