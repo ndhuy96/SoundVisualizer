@@ -49,7 +49,7 @@ final class MainViewController: UIViewController {
     
     private func setupView() {
         let barView = UIView()
-        let width = (containerView.frame.width - CGFloat(numberOfSamples - 1) * 4) / CGFloat(numberOfSamples)
+        let width = (UIScreen.main.bounds.width - CGFloat(numberOfSamples - 1) * 4) / CGFloat(numberOfSamples)
         barView.backgroundColor = UIColor.orange
         barView.layer.cornerRadius = width / 2
         barView.translatesAutoresizingMaskIntoConstraints = false
